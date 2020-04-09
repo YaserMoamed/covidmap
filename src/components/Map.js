@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import MapGL from 'react-map-gl';
 
+
+const MAPBOX_TOKEN = 'pk.eyJ1IjoieWFzZXJtb2FtZCIsImEiOiJjazh0M243cHQwNTNuM2tvbTFiOG1memx6In0.obFMS8MOYVFazQSB16hXhw';
 function Map() {
   const [viewport, setViewport] = useState({
     latitude: 37.8,
