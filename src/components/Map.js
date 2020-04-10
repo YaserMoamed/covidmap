@@ -20,6 +20,7 @@ function Map() {
       onViewportChange={setViewport}
       mapboxApiAccessToken={MAPBOX_TOKEN}
     />
+    
   );
 }
 export default Map;
