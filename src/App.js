@@ -6,7 +6,7 @@ import "./App.scss";
 // Need mapbox css for tooltips later in the tutorial
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken =process.env.MAPBOX_TOKEN;
+mapboxgl.accessToken ='pk.eyJ1IjoieWFzZXJtb2FtZCIsImEiOiJjazh0M243cHQwNTNuM2tvbTFiOG1memx6In0.obFMS8MOYVFazQSB16hXhw';
 
 function App() {
   const mapboxElRef = useRef(null); // DOM element to render map
@@ -41,7 +41,7 @@ function App() {
     if (data) {
       const map = new mapboxgl.Map({
         container: mapboxElRef.current,
-        style: "mapbox://styles/notalemesa/ck8dqwdum09ju1ioj65e3ql3k",
+        style: "mapbox://styles/yasermoamd/ck8ss628a0tje1is5hydc3pob",
         center: [16, 27],
         zoom: 2
       });
