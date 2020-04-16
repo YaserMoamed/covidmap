@@ -29,6 +29,7 @@ function App() {
             country: point.country,
             province: point.province,
             cases: point.stats.confirmed,
+            recovered: point.stats.recovered,
             deaths: point.stats.deaths
           }
         }))
@@ -129,6 +130,7 @@ function App() {
             const {
               cases,
               deaths,
+              recovered,
               country,
               province
             } = e.features[0].properties;
@@ -151,6 +153,7 @@ function App() {
             const HTML = `<p>Country: <b>${country}</b></p>
                 ${provinceHTML}
                 <p>Cases: <b>${cases}</b></p>
+                <p>recovered: <b>${recovered}</b></p> 
                 <p>Deaths: <b>${deaths}</b></p>
                 <p>Mortality Rate: <b>${mortalityRate}%</b></p>
                 ${countryFlagHTML}`;
