@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans');
+.container {
+  position: absolute;
+  width: 100%;
+  max-width: 1101px;
+  height: 699px;
+
+  .Cart {/* Carrello */
+position: absolute;
+width: 100%;
+max-width: 1101px;
+height: 665px;
+
+   .cart-title {
+    position: absolute;
+    width: 100%;
+    max-width: 159px;
+    height: 54px;
+    left: 189px;
+    top: 179px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 54px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1F3245;
+}
+.currncy {
+  position: absolute;
+  width: 100%;
+  max-width: 252px;
+  height: 24px;
+  left: 1017px;
+  top: 223px;
+  /* h6 */
+  h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+  text-align: right;
+
+  color: #000000;
+  }
+}
+.cart-details {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  width:100%;
+  max-width: 1101px;
+  height: 66px;
+  left: 176px;
+  top: 292px;
+
+  /* Light / Light 4 */
+
+  background: #FFFFFF;
+  border: 0.5px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+/* products culumn */
+
+.pro {
+  /* Prodotto */
+  position: absolute;
+  width: 100%;
+  max-width: 72px;
+  height: 22px;
+  left: 235px;
+  top: 20px;
+
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 22px;
+color: #1F3245;
+}
+/* quantity culumn */
+
+.qty {
+position: absolute;
+width: 100%;
+max-width: 69px;
+height: 22px;
+left: 523px;
+top: 20px;
+
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 22px;
+color: #1F3245;
+}
+/* price clumun  */
+
+.pri {
+position: absolute;
+width: 100%;
+max-width: 41px;
+height: 22px;
+left: 840px;
+top: 20.5px;
+
+
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 22px;
+color: #1F3245;
+
+}
+}
+    /* orders details  */
+
+.orders-details {
+  position: absolute;
+  width: 100%;
+  max-width: 1101px;
+  height: 125px;
+  left: 176px;
+  top: 357px;
+  /* Light / Light 4 */
+  background: #FFFFFF;
+  border: 0.5px solid #E5E5E5;
+  box-sizing: border-box;
+
+  .cancel-order {
+     position: absolute;position: absolute;
+     height: 23px;
+     left: 8.78%;
+     right: 81.06%;
+     top: 41.23%;
+     bottom: 57.13%;
+     background-color: #FFFFFF;
+     color: #1C7F7F;
+     border: 1px #fff;
+     font-weight: bold;
+     font-weight: 30px;
+  }
+  .order-img{
+
+  img{
+    position: absolute;
+    width: 100%;
+    max-width: 108px;
+    height: 70px;
+    left: 233px;
+    top: 26px;
+  }
+   p {
+    position: absolute;
+    width: 100%;
+    max-width: 56px;
+    height: 22px;
+    left: 357px;
+    top: 11px;
+    /* text */
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    color: #1C7F7F;
+
+   }
+}
+  .qty-add-min {
+    position: absolute;
+    width: 100%;
+    max-width: 107px;
+    height: 27px;
+    left: 558px;
+    top: 61px;
+
+  .add {
+position: absolute;
+width: 100%;
+max-width: 35px;
+height: 26px;
+left: -40px;
+top: -12px;
+border: 1px solid #1C7F7F;
+box-sizing: border-box;
+border-radius: 4px;
+
+b {
+position: absolute;
+left: 10px;
+right: 19.24%;
+top: -1px;
+font-size: 22px;
+color: #1C7F7F;
+}
+  }
+ .min {
+  position: absolute;
+  width: 35px;
+  height: 26px;
+  left: 30px;
+  top: -12px;
+
+  border: 1px solid #1C7F7F;
+  box-sizing: border-box;
+  border-radius: 4px;
+  b {
+ position: absolute;
+left: 11px;
+right: 19.24%;
+top: -10px;
+font-size: 25px;
+color: #1C7F7F;
+font-size: 32px;
+  }
+ }
+ p {
+  position: absolute;
+  top: -34px;
+  left: 7px;
+  font-size: 23px;
+}
+}
+}
+/* order price  */
+.prod-price {
+position: absolute;
+width: 100%;
+max-width: 51px;
+height: auto;
+left: 850px;
+top: 16px;
+/* Body */
+h6{
+font-family: 'Work Sans', sans-serif;
+font-weight: bold;
+font-size: 16px;
+
+color: #1F3245;
+ }
+
+}
+/* Total price */
+
+.total-price {
+position: absolute;
+width: 100%;
+max-width: 1101px;
+height: 71px;
+left: 176px;
+top: 480px;
+/* Light / Light 4 */
+background: #FFFFFF;
+border: 0.5px solid #E5E5E5;
+box-sizing: border-box;
+border-top: 1px solid #1C7F7F;
+
+p {
+position: absolute;
+width: 100%;
+max-width: 73px;
+height: 28px;
+left: 838px;
+/* Blockquotes */
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 22px;
+
+text-align: center;
+color: #1C7F7F;
+cur{
+  color: #000;
+}
+
+}
+h6 {
+  position: absolute;
+  left: 60px;
+  top: -10px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #1C7F7F;
+}
+}
+/* checkout part in main cart //carello */
+.checkout {
+position: absolute;
+width: 100%;
+max-width: 200px;
+height: 35px;
+left: 90%;
+top: 102.23%;
+background: #1C7F7F;
+border-radius: 4px;
+border: 3px #1C7F7F;
+p {
+position: absolute;
+height: 24px;
+left: 11%;
+right: 29.93%;
+top: -10.5px;
+/* Body */
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+/* Light / Light 4 */
+color: #FFFFFF;
+}
+t {
+position: absolute;
+left: 58%;
+top: 20%;
+color: #fff;
+font-size: 18px;
+}
+b {
+  position: absolute;
+  left: 73%;
+  top: 27%;
+  color: #fff;
+}
+}
+  }
+}

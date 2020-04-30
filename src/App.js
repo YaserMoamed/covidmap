@@ -152,10 +152,10 @@ function App() {
 
             const HTML = `<p>Country: <b>${country}</b></p>
                 ${provinceHTML}
-                <p>Cases: <b>${cases}</b></p>
-                <p>recovered: <b>${recovered}</b></p> 
-                <p>Deaths: <b>${deaths}</b></p>
-                <p>Mortality Rate: <b>${mortalityRate}%</b></p>
+                <p> حالات الإصابة : <b>${cases}</b></p>
+                <p> الحالات التي شفيت: <b>${recovered}</b></p>
+                <p> الوفيات: <b>${deaths}</b></p>
+                <p> نسبةالوفيات : <b>${mortalityRate}%</b></p>
                 ${countryFlagHTML}`;
 
             // Ensure that if the map is zoomed out such that multiple
