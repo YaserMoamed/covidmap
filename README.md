@@ -9,3 +9,5 @@ Mapbox API Token: To run this locally you will need to create a file called `.en
 ## add your api map key and it will render a as functional
 
 ### best luck
+
+### live project https://corona19map.netlify.com
